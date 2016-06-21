@@ -3,6 +3,7 @@
   "name": "NetScalerChangeServiceState",
   "friendlyName": "Change NetScaler Service State",
   "description": "Changes the state of services on a Citrix NetScaler",
+  "helpMarkDown": "[More Information](https://github.com/murattufekcioglu/vsts-tools-for-netscaler)",
   "author": "Murat Tüfekçioğlu",
   "category": "Utility",
   "visibility": [
@@ -13,7 +14,7 @@
   "version": {
     "Major": "0",
     "Minor": "1",
-    "Patch": "66"
+    "Patch": "68"
   },
   "minimumAgentVersion": "1.95.0",
   "instanceNameFormat": "$(Action) $(ServiceNames)",
