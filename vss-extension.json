@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-tools-for-netscaler",
-    "version": "0.0.0",
+    "version": "0.0.5",
     "name": "VSTS Tools for NetScaler",
     "publisher": "murattufekcioglu",
     "targets": [
@@ -16,6 +16,14 @@
         "netscaler",
         "load balance"
     ],
+    "screenshots": [
+        {
+            "path": "extension/images/NetScalerChangeServiceState-1.png"
+        },
+        {
+            "path": "extension/images/NetScalerChangeServiceState-2.png"
+        }
+    ],
     "content": {
         "details": {
             "path": "README.md"
@@ -25,8 +33,21 @@
         }
     },
     "links": {
-        "home": "https://github.com/murattufekcioglu/vsts-tools-for-netscaler"
+        "home": {
+            "uri": "https://github.com/murattufekcioglu/vsts-tools-for-netscaler"
+        },
+        "support": {
+            "uri": "https://github.com/murattufekcioglu/vsts-tools-for-netscaler/issues"
+        }
     },
+    "icons": {
+        "default": "extension/images/extension-icon.png"
+    },
+    "files": [
+        {
+            "path": "netscaler-change-service-state"
+        }
+    ],
     "contributions": [
         {
             "id": "nstools-change-service-state",
@@ -35,7 +56,7 @@
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "NetScalerChangeServiceState"
+                "name": "netscaler-change-service-state"
             }
         }
     ]
