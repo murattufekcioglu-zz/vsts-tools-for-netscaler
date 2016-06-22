@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-tools-for-netscaler",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "name": "VSTS Tools for NetScaler",
     "publisher": "murattufekcioglu",
     "targets": [
@@ -19,6 +19,9 @@
     "screenshots": [
         {
             "path": "extension/images/NetScalerChangeServiceState-1.png"
+        },
+        {
+            "path": "extension/images/NetScalerChangeServiceState-2.png"
         }
     ],
     "content": {
