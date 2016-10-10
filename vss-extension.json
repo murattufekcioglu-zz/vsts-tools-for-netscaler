@@ -4,6 +4,7 @@
     "version": "0.0.5",
     "name": "VSTS Tools for NetScaler",
     "publisher": "murattufekcioglu",
+    "public": true,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
